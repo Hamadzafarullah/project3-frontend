@@ -1,2 +1,87 @@
 
-import ReactDOM from'react-dom';
+[
+    {
+        "location": "Paris",
+        "cost": "$2,604",
+        "attractions": "Eiffel Tower",
+        "images": "https://i.imgur.com/iQ3HKWO.jpg",
+       "information": "The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi. Get lost wandering along the charming cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours. If you're up for a quick daytrip, head about 15 miles southwest of the city center to the Palace of Versailles, which offers guided and self-guided tours of the estate"
+    },
+    {
+        "location": "Bora Bora",
+        "cost": "$1,092",
+        "attractions": "The island's extinct volcano",
+        "images": "https://i.imgur.com/HVxTAAx.jpg",
+       "information": "What this small French Polynesian island may lack in size it makes up for in sheer tropical beauty. Here, you'll find picturesque beaches, lush jungles and luxurious resorts. The island's extinct volcano, Mount Otemanu, makes for a great photo-op or challenging hike, and the friendly Bora Bora locals can help you catch a glimpse of the island's best sights during an off-road excursion. To relax, head to Matira Beach for crystal-clear water and soft white sand. Although a trip to Bora Bora is very expensive, most travelers say it's worth every penny."
+    },
+    {
+        "location": "Rome",
+        "cost": "$916-$1,833",
+        "attractions": "Colosseum, the Trevi Fountain and the Pantheon",
+        "images": "https://i.imgur.com/WLoNjEx.jpg",
+       "information": "When you visit the Eternal City, prepare to cross a few must-see attractions – including the Colosseum, the Trevi Fountain and the Pantheon – off of your bucket list. Travelers can see additional treasures, such as St. Peter's Basilica and the Sistine Chapel, in nearby Vatican City. Escape the tourist crowds by taking a twilight stroll along the cobblestone streets of Trastevere, or head to Mercato Centrale Roma to sample local delicacies like gelato and pizza. Before leaving, peruse some of Rome's lesser-known museums, art galleries and boutiques."
+    },
+    {
+        "location": "Turks & Caicos",
+        "cost": "$1546.76",
+        "attractions": "Grace Bay Beach",
+        "images": "https://i.imgur.com/QF6MEJJ.jpg",
+       "information": "Located north of the Dominican Republic, this collection of roughly 100 islands and cays is popular with honeymooners – and for good reason. With sparkling white sand, crystal-clear water and nearly 350 miles of colorful coral reef, the Turks and Caicos Islands are truly a sight to behold. While you'd be remiss to visit the islands and not spend a day or two lounging on Grace Bay Beach, those seeking a more active getaway will have plenty of opportunities to snorkel, scuba dive and ride horses along the coast."
+    },
+    {
+        "location": "Tokyo",
+        "cost": "$1,858",
+        "attractions": "Centuries-old temples",
+        "images": "https://i.imgur.com/fKObpDV.jpg",
+       "information": "Simply setting foot in Japan's cosmopolitan capital is an experience within itself. A city known for its bustling streets and flashing neon signs, Tokyo has an electric energy and plenty of attractions to discover. Foodies won't be let down by the city's fresh sushi and hearty ramen. Budding photographers and adrenaline junkies will love taking in the sweeping panoramas from the top of the Tokyo Skytree. Shopaholics will find plenty of must-have designer products in Ginza. And for history buffs, Tokyo offers centuries-old temples and shrines to explore."
+    },
+    {
+        "location": "Barcelona",
+        "cost": "$1,530",
+        "attractions": "Basilica de la Sagrada Família ",
+        "images": "https://i.imgur.com/a1xoCEt.jpg",
+       "information": "This Spanish city is a feast for the eyes: Visitors can walk past medieval architecture in the Barri Gòtic, snap photos of the intricate Basilica de la Sagrada Família and marvel at Antoni Gaudí's whimsical creations in Park Güell. Meanwhile, Barceloneta beach and the Parc de la Ciutadella are perfect places to pass the time on a sunny day before checking out the restaurants and bars along Las Ramblas, which buzzes at all hours of the night. For travelers who want to see Barcelona from above, trek up Mount Tibidabo or to the Bunkers del Carmel."
+    },
+    {
+        "location": "Glacier National Park",
+        "cost": "$1500",
+        "attractions": "Glacier National Park",
+        "images": "https://i.imgur.com/LwFtDtR.jpg",
+       "information": "Snow-capped peaks and azure lakes are just two reasons why Glacier National Park is one of America's most striking parks. There are more than 700 miles of hiking trails in this Montana park, plus 13 designated areas for camping. In the winter, travelers can enjoy snowshoeing and skiing, while during the summer vacationers can go swimming and whitewater rafting, among other popular activities. For those who'd rather admire their surroundings from their car, a scenic drive along Going-to-the-Sun Road can't be missed."
+    },
+    {
+        "location": "Grand Canyon",
+        "cost": "from $1380",
+        "attractions": "Rim and Bright Angel trails",
+        "images": "https://i.imgur.com/uqh8ZIf.jpg",
+       "information": "Measuring roughly 277 miles long, 18 miles wide and about a mile deep, the Grand Canyon offers plenty of outdoor activities for everyone from day-trippers to adventure junkies. Hike along the national park's popular Rim and Bright Angel trails for unparalleled vistas, cool off with a whitewater rafting excursion down the Colorado River or view the dramatic Arizona landscape from above during a helicopter tour. If you're feeling especially daring, sign up for a skydiving excursion above the canyon."
+    },
+    {
+        "location": "Costa Rica",
+        "cost": "from $800-$1500",
+        "attractions": "Volcanic mountains and Verdant rainforests",
+        "images": "https://i.imgur.com/YS6qh0s.jpg",
+       "information": "From volcanic mountains and verdant rainforests to tumbling waterfalls and miles of stunning shoreline, Costa Rica is a Central American gem. Explore the beaches along the Nicoya Peninsula, hike along Arenal Volcano and spot exotic wildlife in remote Tortuguero National Park. If you're looking for an adrenaline rush, go swimming next to some of the country's waterfalls or zip lining through its rainforests. Just make sure you plan a visit during Costa Rica's dry season, which falls between mid-December and April."
+    },
+    {
+        "location": "Santorini",
+        "cost": "from $3,208",
+        "attractions": "The Blue Dome Buildings",
+        "images": "https://i.imgur.com/CVe1OKl.jpg",
+       "information": "Frequently touted as a top honeymoon destination, this Greek isle woos newlyweds every year with its breathtaking sunsets, pastel-hued villages and colorful beaches. Archaeological sites, such as Ancient Thira and Ancient Akrotiri, beckon to history buffs, while central Santorini's wine tours lure oenophiles. Work up an appetite by hiking along the rim of the caldera, then head to scenic Amoudi Bay to dine alfresco. Meanwhile, travelers looking for a relaxing daytrip can hop on a boat to the nearby island of Thirassia."
+    },
+    {
+        "location": "Bali",
+        "cost": "fron $850",
+        "attractions": "Village of Kintamani",
+        "images": "https://i.imgur.com/JSuy6iJ.jpg",
+       "information": "Serene temples and beautiful beaches are the biggest draws to this lush Indonesian paradise. And we do mean lush – the region's notoriously soggy wet season is best avoided by planning a visit between April and October. Break up your beach time with a visit to the village of Kintamani, home to a towering (and active) volcano, as well as a large lake. If you're craving an adrenaline rush, rent a scooter and zip around the island, or hop on one of Bali's many swings to soar above rice terraces and jungles."
+    },
+    {
+        "location": "New York City",
+        "cost": "from $900 to $ 1200",
+        "attractions": "Time Square",
+        "images": "https://i.imgur.com/IDr7fMy.jpg",
+       "information": "New York City hosts infinite urban adventures: You can wander through Central Park, tour art exhibits at the Met, catch a Broadway show or peruse SoHo's stylish boutiques. At night, admire Manhattan's glittering skyscrapers from the top of the Empire State Building or the rooftop bar of a trendy boutique hotel. Foodies will also appreciate the Big Apple's endless restaurant options. If you want to sample a bit of everything, sign up for a food tour."
+    }
+]
