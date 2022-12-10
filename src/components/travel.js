@@ -7,7 +7,7 @@ export default function Travel() {
     const [travel, setTravel] = useState([]); 
 
     useEffect(() => {
-        axios.get('http://localhost:8000/api/travelapp')
+        axios.get('http://localhost:8000/location')
           .then((response) => response.data)
           .then((response) => {
             console.log(response)
