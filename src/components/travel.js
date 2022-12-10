@@ -20,7 +20,7 @@ export default function Travel() {
             {travel.map((element) => {
                 return( 
                     <div className="container">
-                        <img src={element.image}/>
+                        <img src={element.images}/>
                         <div>{element.location}</div>
                         <div>{element.information}</div>
                         <div>{element.attractions}</div>
