@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from 'react';
 import axios from 'axios';
+import { Link } from "react-router-dom";
+
 
 export default function Travel() {
     const [travel, setTravel] = useState([]); 
@@ -20,11 +22,11 @@ export default function Travel() {
             {travel.map((element) => {
                 return( 
                     <div className="container">
-                        <img src={element.images}/>
-                        <div>{element.location}</div>
-                        <div>{element.information}</div>
+                        <Link to ={`location/${element._id}`}><img src={element.images}/>
+                        <div>{element.location}</div></Link>
+                        {/* <div>{element.information}</div>
                         <div>{element.attractions}</div>
-                        <div>{element.cost}</div>
+                        <div>{element.cost}</div> */}
                     </div>
                 )
             })}
