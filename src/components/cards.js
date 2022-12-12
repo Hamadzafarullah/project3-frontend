@@ -1,6 +1,5 @@
 import Travel from "./Travelapp.js"
 
-
 function cards(){
   return(
     <div className="cardbox">
@@ -13,9 +12,6 @@ function cards(){
          
             </div>
 
-
-
-
             <div className="cards">
       <h2>{`${travelapp[1].image}`}</h2>
       <p>{`${travelapp[1].location}`}</p>
@@ -26,25 +22,14 @@ function cards(){
          
             </div>
 
-
-
-
-
-
-
             <div className="cards">
       <h2>{`${travelapp[2].image}`}</h2>
       <p>{`${travelapp[2].location}`}</p>
         <p>{`${travelapp[2].cost}`}</p>
         <p>{`${travelapp[2].attreactions}`}</p>
         <p>{`${rtravelapp[2].information}`}</p>
-         
-         
+                  
             </div>
-
-
-
-
 
             <div className="cards">
       <h2>{`${travelapp[3].image}`}</h2>
@@ -53,9 +38,7 @@ function cards(){
         <p>{`${travelapp[3].attreactions}`}</p>
         <p>{`${travelapp[3].information}`}</p>
          
-         
             </div>
-
 
             <div className="cards">
       <h2>{`${travelapp[4].image}`}</h2>
@@ -64,10 +47,7 @@ function cards(){
         <p>{`${travelapp[4].attreactions}`}</p>
         <p>{`${travelapp[4].information}`}</p>
          
-         
             </div>
-
-
 
             <div className="cards">
       <h2>{`${travelapp[5].image}`}</h2>
@@ -76,11 +56,7 @@ function cards(){
         <p>{`${travelapp[5].attreactions}`}</p>
         <p>{`${travelapp[5].information}`}</p>
          
-         
             </div>
-
-
-
 
             <div className="cards">
       <h2>{`${travelapp[6].image}`}</h2>
@@ -89,10 +65,7 @@ function cards(){
         <p>{`${travelapp[6].attreactions}`}</p>
         <p>{`${travelapp[6].information}`}</p>
          
-         
             </div>
-
-
 
             <div className="cards">
       <h2>{`${travelapp[7].image}`}</h2>
@@ -100,23 +73,17 @@ function cards(){
         <p>{`${travelapp[7].cost}`}</p>
         <p>{`${travelapp[7].attreactions}`}</p>
         <p>{`${travelapp[7].information}`}</p>
-         
-         
+            
             </div>
-
-
 
             <div className="cards">
       <h2>{`${travelapp[8].image}`}</h2>
       <p>{`${travelapp[8].location}`}</p>
         <p>{`${travelapp[8].cost}`}</p>
         <p>{`${travelapp[8].attreactions}`}</p>
-        <p>{`${travelapp[8].information}`}</p>
-         
+        <p>{`${travelapp[8].information}`}</p>  
          
             </div>
-
-
 
             <div className="cards">
       <h2>{`${travelapp[9].image}`}</h2>
@@ -124,11 +91,8 @@ function cards(){
         <p>{`${travelapp[9].cost}`}</p>
         <p>{`${travelapp[9].attreactions}`}</p>
         <p>{`${travelapp[9].information}`}</p>
-         
-         
+           
             </div>
-
-
 
             <div className="cards">
       <h2>{`${travelapp[10].image}`}</h2>
