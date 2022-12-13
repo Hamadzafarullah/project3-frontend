@@ -27,7 +27,6 @@ export default function Travel() {
             <div className="main">
                 {travel.map((element) => {
                     return( 
-                        
                         <div className="container">
                             <Link to ={`location/${element._id}`}><img src={element.images}/>
                             <div>{element.location}</div></Link>
