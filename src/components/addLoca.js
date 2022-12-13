@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 
  function Addlocation() {
-    const BASE_URL = 'http://localhost:8000/location'
+    const BASE_URL = 'https://travelapplog.herokuapp.com/location'
     const [newForm, setNewForm]= useState({
 
     location: "",
