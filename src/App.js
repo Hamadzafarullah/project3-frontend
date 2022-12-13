@@ -4,6 +4,7 @@ import './App.css';
 // import Search from './Search';
 // import Location from './Location';
 import Footer from './components/footer';
+import Title from './components/title';
 import Travel from './components/travel';
 import Addlocation from "./components/addLoca"
 import LocationId from "./components/LocationID"
@@ -11,8 +12,7 @@ import LocationId from "./components/LocationID"
 function App() {
   return (
     <div className="App">
-      {/* <Header />
-      <Search /> */}
+      <Title />
       <Routes>
       <Route exact path ="/" element={<Travel />}/>
       <Route exact path = "/addlocation" element={<Addlocation/>}/>
