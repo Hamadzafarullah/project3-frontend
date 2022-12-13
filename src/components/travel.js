@@ -21,20 +21,23 @@ export default function Travel() {
 
     return (
         <div>
-           <Link to = '/addlocation'> <button> Add location </button> </Link>
-
-            {travel.map((element) => {
-                return( 
-                    
-                    <div className="container">
-                        <Link to ={`location/${element._id}`}><img src={element.images}/>
-                        <div>{element.location}</div></Link>
-                        {/* <div>{element.information}</div>
-                        <div>{element.attractions}</div>
-                        <div>{element.cost}</div> */}
-                    </div>
-                )
-            })}
+            <div className="button">
+                <Link to = '/addlocation'> <button> Add location </button> </Link>
+            </div>
+            <div className="main">
+                {travel.map((element) => {
+                    return( 
+                        
+                        <div className="container">
+                            <Link to ={`location/${element._id}`}><img src={element.images}/>
+                            <div>{element.location}</div></Link>
+                            {/* <div>{element.information}</div>
+                            <div>{element.attractions}</div>
+                            <div>{element.cost}</div> */}
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     )
 }
