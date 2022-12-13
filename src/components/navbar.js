@@ -2,10 +2,10 @@ import React from 'react'
 const navbar = () =>{
     return (
         <nav className='style'>
-          <h1>navbar will be updated here</h1>
+         
           <div className='navbarContainer'>
-            <p>Help safety privacy terms
-            <button>Post</button>
+            <p>
+           
             </p>
         </div>
         </nav>
