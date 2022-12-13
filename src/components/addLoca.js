@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom';
+
+
 
 
 
@@ -78,11 +81,14 @@ import { useEffect } from 'react'
                 <br />
                
                 <br /><br />
-                <input type="submit" />
+                <input type="submit" /> 
+                <Link to= '/'><button>back</button></Link>
             </form>
         </div>
     )
 }
+
+
 export default Addlocation
 
 

@@ -55,7 +55,7 @@ export default function LocationId(props) {
         //     setLocationId(response) 
         //   })
     }, []);
-
+  
     return (
         <div>
             {/* {LocationId.map((element) => {
@@ -70,6 +70,7 @@ export default function LocationId(props) {
                       <button className="delete" onClick={removeLocation}>
                                     Remove Location
                                 </button>
+              
             </div>
                     </div>
                 {/* )
