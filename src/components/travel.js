@@ -30,9 +30,6 @@ export default function Travel() {
                         <div className="container">
                             <Link to ={`location/${element._id}`}><img src={element.images}/>
                             <div>{element.location}</div></Link>
-                            {/* <div>{element.information}</div>
-                            <div>{element.attractions}</div>
-                            <div>{element.cost}</div> */}
                         </div>
                     )
                 })}
