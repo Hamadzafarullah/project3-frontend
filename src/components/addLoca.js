@@ -19,17 +19,18 @@ import { useEffect } from 'react'
         const response = await fetch(BASE_URL);
         const allLocation = await response.json();
 
-        fn(allLocation);
+        console.log(allLocation);
     } catch (err) {
         console.log(err);
     }
 };
    const addLoca = async (locationData)=>{
     try {
+        console.log(locationData);
         const newLocation = await fetch (BASE_URL, {
             method:"post",
             headers:{
-                "Content-Type":"application-json",
+                "Content-Type":"application/json",
             },
             body:JSON.stringify(locationData)
         })
@@ -39,9 +40,10 @@ import { useEffect } from 'react'
     }
    }
     const handleSubmit = async (e) => {
+       console.log(newForm);
         e.preventDefault()
-        const newLoca= await addLoca()
-        setNewForm ({
+        const newLoca= await addLoca(newForm)
+       setNewForm ({
             location: "",
             cost: "",
             attractions: "",
