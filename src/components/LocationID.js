@@ -8,7 +8,7 @@ export default function LocationId(props) {
     const {id}= useParams()
     const [LocationId, setLocationId] = useState([]); 
     
-    const URL =`http://localhost:8000/location/${id}`
+    const URL =`https://travelapplog.herokuapp.com/location/${id}`
     const getLoca = async () => {
         console.log(URL)
 
@@ -48,18 +48,11 @@ export default function LocationId(props) {
   }
     useEffect(() => {
         getLoca()
-        // axios.get(`http://localhost:8000/location/${id}`)
-        //   .then((response) => response.data)
-        //   .then((response) => {
-        //     console.log(response)
-        //     setLocationId(response) 
-        //   })
     }, []);
   
     return (
         <div>
-            {/* {LocationId.map((element) => {
-                return(  */}
+           
                     <div className="container">
                         <img src={LocationId.images}/>
                         <div>{LocationId.location}</div>
@@ -73,8 +66,7 @@ export default function LocationId(props) {
               
             </div>
                     </div>
-                {/* )
-            })} */}
+            
         </div>
     )
 }

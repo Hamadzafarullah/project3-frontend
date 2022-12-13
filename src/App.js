@@ -1,8 +1,5 @@
 import { Routes,Route } from 'react-router';
 import './App.css';
-// import Header from './Header';
-// import Search from './Search';
-// import Location from './Location';
 import Footer from './components/footer';
 import Title from './components/title';
 import Travel from './components/travel';
