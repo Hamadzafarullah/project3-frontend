@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# TravelApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created by: Jihwan, Hamad, and Jayson
 
-## Available Scripts
+## About the App
 
-In the project directory, you can run:
+TravelApp is an application that allows you to search for you dream vacation. Our app provides a picture of you destination, average flight costs, information about your destination, along with the top tourist attraction!
+If none of our included vacation spots catch your attention, you can always delete them from your list and manually add you own.
 
-### `npm start`
+### Wireframe
+<img width="820" alt="Screenshot 2022-12-14 at 9 40 06 AM" src="https://user-images.githubusercontent.com/114092414/207626076-58a51251-7585-426f-a219-fd985842c73f.png">
+<img width="611" alt="Screenshot 2022-12-14 at 9 40 16 AM" src="https://user-images.githubusercontent.com/114092414/207626217-cf9311e6-df4e-4843-aaaf-085c51b4d5b8.png">
+<img width="813" alt="Screenshot 2022-12-14 at 9 40 24 AM" src="https://user-images.githubusercontent.com/114092414/207626240-c683d74a-2cb6-45f0-883c-5e01d8915965.png">
+<img width="819" alt="Screenshot 2022-12-14 at 9 40 35 AM" src="https://user-images.githubusercontent.com/114092414/207626262-74daf2f5-6e12-4e9d-a4ba-6cb4118f3ec4.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User Stories
+AAU I want to be able to see a list of locations I can visit.
+AAU I want to see details about the location I want to visit.
+AAU I want to see the cost/price I would have to pay for the trip.
+AAU I want to see images of the location I want to visit.
+AAU I want to see tourist attraction options.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Components
+Home: The home page is where you see the list of all the locations 
+Add Location: Once you click the "add location" button you will be prompted to add in you own location with your own information
+Remove Location: Once you select a location you will have the ability to remove it from you list.
+Update: Update is a button that allows you to update a location to the way you want.
+About Location: Once you click on a location it will bring you to a page that displays information to help you choose your next vacation.
