@@ -6,7 +6,7 @@ import Navbar from './navbar';
 const title = () => {
   return (
     <div>
-      <h2>Look for your dream vaccation</h2>
+      <h2>Look for your dream vacation</h2>
       <Navbar />
     </div>
   );
