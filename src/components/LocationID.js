@@ -8,7 +8,7 @@ export default function LocationId(props) {
     const {id}= useParams()
     const [LocationId, setLocationId] = useState([]); 
     
-    const URL =`https://travelapplog.herokuapp.com/location/${id}`
+    const URL =`https://travelbackend.fly.dev/location/${id}`
     const getLoca = async () => {
         console.log(URL)
 

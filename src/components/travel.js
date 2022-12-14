@@ -9,7 +9,7 @@ export default function Travel() {
     const [travel, setTravel] = useState([]); 
 
     useEffect(() => {
-        axios.get('https://travelapplog.herokuapp.com/location')
+        axios.get('https://travelbackend.fly.dev/location')
           .then((response) => response.data)
           .then((response) => {
             console.log(response)
