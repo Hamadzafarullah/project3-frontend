@@ -4,6 +4,7 @@ Created by: Jihwan, Hamad, and Jayson
 
 ## Repositores
 [Front](https://github.com/Hamadzafarullah/project3-frontend)
+[Deployed App](https://project3-frontend-indol.vercel.app/)
 [Back](https://github.com/Hamadzafarullah/project-3-be)
 ## About the App
 
